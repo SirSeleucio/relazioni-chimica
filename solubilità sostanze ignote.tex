@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{chemfig}
+\title{Prove di solubilità su sostanze incognite}
+\author{Cristiano Colpo cl. 4AC}
+\date{November 2014}
+
+\begin{document}
+
+\maketitle
+
+\section{Obiettivo}
+L'obiettivo di questa esperienza è quello di determinare la classe di solubilità di alcune sostanze incognite e eseguire il saggio di tollens per individuare un aldeide o un chetone. 
+
+\section{Materiale}
+\begin{multicols}{2}
+\renewcommand{\labelitemi}{$\square$}
+\begin{itemize}
+    \item porta provette
+    \item pipetta graduata
+    \item provette con tappo
+    \item spruzzetta
+    \item cartina tornasole
+    \item bacchetta di vetro
+    \item becher
+    \item pipetta conta gocce
+    \item matracci
+\end{itemize}
+\end{multicols}
+
+\section{Sostanze}
+\begin{multicols}{2}
+\renewcommand{\labelitemi}{$\square$}
+\begin{itemize}
+    \item 4 sostanze incognite (A, B, C, D)
+    \item \chemfig{H_2 O} distillata
+    \item soluzione di etere
+    \item soluzione di NaOH al 5\%
+    \item soluzione di HCl al 5\%
+    \item soluzione di \chemfig{NaHCO_3} al 5\%
+    \item soluzione di \chemfig{NH_3}
+    \item soluzione di \chemfig{NH_4 OH}
+    \item soluzione di \chemfig{AgNO_3}
+\end{itemize}
+\end{multicols}
+
+\section{Sicurezza}
+Utilizzare guanti e occhiali protettivi con il reattivo di Tollens.
+
+\section{Procedimento}
+\begin{enumerate}
+\item Eseguire le prove di solubilità seguendo lo schema sottostante
+\vspace{10mm}
+\vfill
+\item Per riconoscere aldeidi o chetoni si fa uso del saggio di Tollens: si prepara il reattivo a fresco perché può essere esplosivo, secondo la reazione:
+
+\schemestart
+    \chemfig{2Ag^{+}NO^{-}_3}
+    \+
+    \chemfig{2NaOH}
+    \arrow(.mid east--.mid west){->}
+    \chemfig{Ag_2 O_{(S)}}
+    \+
+    \chemfig{H_2 O}
+    \+
+    \chemfig{Na^{+}NO^{-}_3}
+\schemestop
+
+\schemestart
+    \chemfig{Ag_2 O_{(S)}}
+    \+
+    \chemfig{4NH_3}
+    \+
+    \chemfig{H_2 O}
+    \arrow(.mid east--.mid west){->}
+    \chemfig{2Ag{(}NH_3{)}^{+}_2}
+    \+
+    \chemfig{OH^{-}}
+\schemestop
+
+Il prodotto che otteniamo \chemfig{2Ag{(}NH_3{)}^{+}_2} è il nitrato d'argento ammoniacale chiamato anche \texttit{reattivo di Tollens}.
+\par
+Si prende quindi una provetta con circa 2mL di \chemfig{2Ag^{+}NO^{-}_3} e 0,5mL di \chemfig{NaOH}, si lascia poi a riposo fino a quando non si forma un precipitato. Successivamente si aggiunge idrossido di ammonio \chemfig{NH_{4}OH} fino a solubilizzare completamente il precipitato (meglio utilizzare la pipetta).
+A questo punto il reattivo è pronto, si aggiunge in provetta qualche goccia della sostanza incognita e si osserva se si forma o no uno specchio d'argento.
+\par
+Se si osserva lo specchio d'argento la sostanza è quindi un aldeide perchè a differenza dei chetoni, lo ione argento complessato con l'ammoniaca può essere ridotto solo dalle aldeidi ad argento metallico e non dai chetoni che non reagiscono.
+\end{enumerate}
+
+\section{Dati e risultati}
+\begin{table}[h]
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+  & \chemfig{H_2 O} & Etere & NaOH & HCl & \chemfig{NaHCO_3} & \chemfig{H_{2}SO_4} & CLASSE \\\hline
+A &        si            &  si     &      &     &     &      &  S_a      \\\hline
+B &         si           &  insol     &      &     &     &      &  S      \\\hline
+C &           insol         &       &   insol   &  insol   &     &   ?   &       ?\\\hline
+  & \multicolumn{6}{c|}{COSA SI VERIFICA}              & SOSTANZA \\\hline
+D & \multicolumn{6}{c|}{formazione specchio d'argento} & aldeide \\\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusioni}
+Abbiamo determinato le tre classi di solubilità ( A $\rightarrow$ S_A , B  $\rightarrow$ S ) ad eccezione della sostanza C perché non ci era permesso utilizzare l'acido solforico 96\% e abbiamo identificato l'ultima sostanza D come un aldeide.
+\end{document}
