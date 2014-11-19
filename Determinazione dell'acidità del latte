@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{chemfig}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\title{Titolazione dell'acido lattico contenuto nel latte}
+\author{Cristiano Colpo cl. 4AC}
+\date{November 2014}
+
+\begin{document}
+
+\maketitle
+
+\section{Obiettivo}
+L'obiettivo di questa esperienza è quello di ricavare il volume di titolante con cui si neutralizza l'acido lattico e ricavare la relativa acidità equivalente espressa in \textdegree SH. 
+
+\section{Materiale}
+\begin{multicols}{2}
+\renewcommand{\labelitemi}{$\square$}
+\begin{itemize}
+    \item Buretta di Mohr
+    \item Becher
+    \item Pipetta graduata
+    \item Cilindro graduato
+    \item Ancoretta
+    \item Siringa
+    \item Agitatore magnetico
+    \item Matracci
+    \item Pipetta graduata
+    \item Cilindro graduato
+\end{itemize}
+\end{multicols}
+
+\section{Sostanze}
+\begin{multicols}{2}
+\renewcommand{\labelitemi}{$\square$}
+\begin{itemize}
+    \item Acqua distillata
+    \item NaOH 0,1M
+    \item Latte (con presenza al suo interno di acido lattico)
+    \item Fenolftaleina \includegraphics[scale=0.5]{fenolftaleina}
+\end{itemize}
+\end{multicols}
+
+\section{Sicurezza}
+NaOH : \includegraphics[scale=0.6]{GHS05}(GHS05)Frasi H	314 - 290; Consigli P	280 - 301+330+331 - 305+351+338 - 309+310.
+
+Fenolftaleina: \includegraphics[scale=0.6]{GHS08}(GHS05)Frasi H	341 - 350 - 361; Consigli P	201 - 281 - 308+313.
+
+\section{Procedimento}
+\begin{enumerate}
+    \item Prelevare 50mL di latte con la pipetta graduata e versarli nel bacher
+    \item Aggiungere 8 gocce di fenolftaleina
+    \item Predisporre una buretta con la soluzione titolante di NaOH
+    \item Titolare il latte presente nel bacher procedendo goccia a goccia fino a che non assume una colorazione rosata. 
+\end{enumerate}
+
+\section{Dati e risultati}
+Il viraggio del indicatore è avvenuto nella prima prova con 9,8mL di titolante mentre nella seconda con 9,6mL. L'acidità del latte viene ufficialmente indicata come \textit{grado di acidità} (\textdegree SH), che corrisponde ai mL di NaOH 0,25M necessari per portare 100mL di latte a pH 8,3 (il pH di viraggio della fenolftaleina). Noi abbiamo utilizzato NaOH 0,5M ma a noi serve il volume di NaOH 0,25M pertanto utilizziamo la formula:
+\begin{equation}
+V_{NaOH 0,25M} = \frac{(M \times V)_{NaOH a.titolo.noto}}{0,25M} = \frac{0,1\frac{mol}{L}\times (0,0097\times 2)L}{0,25\frac{mol}{L}} = 0,00776L
+\end{equation}
+
+Da questa formula abbiamo ricavato il volume di NaOH 0,25M necessario per portare 100mL di latte a pH 8,3. Se 1mL di NaOH 0,25M è uguale a 1\textdegree SH allora 7,76mL di NaOH 0,25M corrispondono a 7,76 \textdegree SH.
+
+Calcoliamo la percentuale di acido lattico presente nel latte con l'equazione.
+\begin{equation}
+acido lattico\% = °SH \times 0,0225 = 7,76 \times 0,0225 = 17,4\%
+\end{equation}
+Un buon latte fresco contiene solo una modesta percentuale di acido lattico (0,15-0,16\%), il nostro con il valore di 17,4\% si avvicina a questi valori.
+\section{Conclusioni}
+Il latte fresco ha un'acidità compresa tra 6,5 e 7,5 \textdegree SH, mentre il latte utilizzato per questa esperienza ha un'acidità di 7,76 \textdegree SH e quindi potrebbe non essere considerato \textit{fresco}. 
+\end{document}
