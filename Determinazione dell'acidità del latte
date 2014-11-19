@@ -59,7 +59,7 @@ Fenolftaleina: \includegraphics[scale=0.6]{GHS08}(GHS05)Frasi H	341 - 350 - 361;
 \end{enumerate}
 
 \section{Dati e risultati}
-Il viraggio del indicatore è avvenuto nella prima prova con 9,8mL di titolante mentre nella seconda con 9,6mL. L'acidità del latte viene ufficialmente indicata come \textit{grado di acidità} (\textdegree SH), che corrisponde ai mL di NaOH 0,25M necessari per portare 100mL di latte a pH 8,3 (il pH di viraggio della fenolftaleina). Noi abbiamo utilizzato NaOH 0,5M ma a noi serve il volume di NaOH 0,25M pertanto utilizziamo la formula:
+Il viraggio del indicatore è avvenuto nella prima prova con 9,8mL di titolante mentre nella seconda con 9,6mL. L'acidità del latte viene ufficialmente indicata come \textit{grado di acidità} (\textdegree SH), che corrisponde ai mL di NaOH 0,25M necessari per portare 100mL di latte a pH 8,3 (il pH di viraggio della fenolftaleina). Noi abbiamo utilizzato NaOH 0,1M ma a noi serve il volume di NaOH 0,25M pertanto utilizziamo la formula:
 \begin{equation}
 V_{NaOH 0,25M} = \frac{(M \times V)_{NaOH a.titolo.noto}}{0,25M} = \frac{0,1\frac{mol}{L}\times (0,0097\times 2)L}{0,25\frac{mol}{L}} = 0,00776L
 \end{equation}
